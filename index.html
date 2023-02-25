@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="description" content="ASD FrontendMentor Advice generator app - HTML, CSS, JS, API">
+
+  <title>ASD | FM | Advice generator app</title>
+
+  <!-- my style -->
+  <link rel="stylesheet" href="/styles/style.css">
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+  <!-- favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+</head>
+<body>
+  <div class="card">
+    <!-- advice title -->
+    <p class="advice-title">Advice #<span id="adviceId">117</span></p>
+    <!-- advice text -->
+    <div class="advice-text"> "It is esasy to sit up and take notice, what's difficult is getting up and taking action."</div>
+
+    <!-- pattern-divider -->
+    <picture class="pattern-divider">
+      <source srcset="/images/pattern-divider-desktop.svg" media="(min-width:600px)">
+      <img src="/images/pattern-divider-mobile.svg" alt="pattern-divider-mobile">
+    </picture>
+
+    <!-- random advice button -->
+    <div>
+      <button class="btn">
+        <img src="/images/icon-dice.svg" alt="icon-dice">
+      </button>
+    </div>
+
+  </div>
+
+  <div class="github-link">
+    Coded by <a href="https://github.com/agnieszkastanczuk" target="_blank">ASD</a>.
+  </div>
+  
+  <script src="/app.js"></script>
+</body>
+</html>
