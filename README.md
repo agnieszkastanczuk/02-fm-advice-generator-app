@@ -13,7 +13,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ## Overview
 
-This is my second project from FrontendMentor. Visit: https://asd-fm-sunnyside.netlify.app/ Get inspired! :) 
+This is my second project from FrontendMentor. Visit: https://asd-fm-advice-generator-app.netlify.app/ Get inspired! :) 
 
 ### The challenge
 
